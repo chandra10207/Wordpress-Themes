@@ -1,0 +1,1146 @@
+a.plan-a-trip-home {
+    color: #fff;
+}
+
+a.plan-a-trip-home:hover,
+a.plan-a-trip-home:focus,
+a.plan-a-trip-home:active,
+a.become-vendor-button:hover,
+a.become-vendor-button:focus,
+a.become-vendor-button:active
+{
+    color: #fff !important;
+}
+.load-more-container {
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+button.loadmore {
+    background: #911e21;
+    padding: 5px 20px;
+    color: #fff;
+    border: 0;
+}
+
+.loader-gif {
+    display: none;
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+.woocommerce-checkout header.inner-page {
+    margin-bottom: 30px;
+}
+
+.woocommerce-checkout div#customer_details {
+    margin-bottom: 40px;
+}
+
+.woocommerce-checkout .shop_table {
+    margin: 20px 0px 40px !important;
+}
+
+.wcv-pro-dashboard .wcv-cols-group .all-50.small-100.tiny-100>p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.validation-error {
+    border: 1px solid #ff0000 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+
+    .navbar-default {
+        height: auto;
+    }
+    .section-header p {
+        font-size: 18px;
+    }
+    /* header .intro-text .intro-heading{font-size: 24px;line-height: normal;margin-bottom: 10px;}*/
+    .at-login-form .modal-dialog {
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    #footer {
+        height: auto;
+    }
+    .banner .text-wrapper1 {
+        margin: 0;
+        max-width: 280px;
+        top: 7%;
+        height: auto;
+    }
+    .banner .text-wrapper1 .btn-read {
+        letter-spacing: 0
+    }
+
+    .banner .text-wrapper {
+        margin: 0;
+        /*padding: 15px 30px;*/
+        /*
+        max-width: 280px;*/
+    }
+    .banner .text-wrapper .btn-read {
+        letter-spacing: 0
+    }
+
+    .about-wrap {
+        margin: 40px 0;
+    }
+    .about-content h2 {
+        font-size: 22px
+    }
+
+
+    .dropping-offer h1 {
+        font-size: 30px;
+    }
+    .dropping-offer {
+        margin: 40px 0;
+    }
+    .country-wrap {
+        margin-bottom: 40px;
+    }
+    .country-wrap .thumb h1 {
+        font-size: 30px;
+    }
+    .contact-wrap {
+        margin: 40px 0;
+    }
+    .contact-wrap .form-group .col-sm-12:first-child {
+        margin-bottom: 30px;
+    }
+    .google-map {
+        margin-top: 40px;
+    }
+    .booking-wrap .form-control {
+        max-width: 100%;
+    }
+    .booking-wrap .input-group .form-control {
+        max-width: 100%;
+    }
+    .booking-wrap .view-btn {
+        max-width: 100%;
+        margin: 15px 0;
+    }
+    .section-header h2 {
+        font-size: 17px;
+        letter-spacing: normal
+    }
+    .section-header h3.section-title {
+        font-size: 17px;
+    }
+    #top-accomodation {
+        padding: 40px 0;
+    }
+    #special-offer {
+        margin: 40px 0 0;
+    }
+    #special-offer.shop-page {
+        margin-bottom: 0;
+    }
+    #featured-brand {
+        margin: 40px 0;
+    }
+    #search-bar {
+        height: auto;
+    }
+    .search-bar-wrapper {
+        height: auto;
+        margin-bottom: 30px;
+        float: left;
+        width: 100%;
+    }
+    #search-bar .input-group-addon:last-child {
+        width: 100%;
+        margin: 0;
+        display: table;
+        line-height: 40px;
+        color: #fff;
+        height: auto;
+        left: 0;
+        top: 5px;
+    }
+
+    #search-bar .form-group {
+        border-right: none;
+    }
+    #top-accomodation h3 {
+        font-size: 25px;
+    }
+}
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+
+    .navbar-default {
+        height: auto;
+    }
+    .section-header p {
+        font-size: 18px;
+    }
+
+    /* header .intro-text .intro-heading{font-size: 24px;line-height: normal;margin-bottom: 10px;}*/
+    .at-login-form .modal-dialog {
+        width: 350px;
+        margin: 10px auto;
+    }
+
+    .banner .text-wrapper1 {
+        margin: 0;
+        max-width: 280px;
+        top: 7%;
+        height: auto;
+    }
+    .banner .text-wrapper1 .btn-read {
+        letter-spacing: 0
+    }
+
+    .banner .text-wrapper {
+        margin: 0;
+        /*
+        max-width: 280px;*/
+    }
+    .banner .text-wrapper .btn-read {
+        letter-spacing: 0
+    }
+
+    .about-wrap {
+        margin: 40px 0;
+    }
+    .about-content h2 {
+        font-size: 22px
+    }
+
+
+    .dropping-offer h1 {
+        font-size: 30px;
+    }
+    .dropping-offer {
+        margin: 40px 0;
+    }
+    .country-wrap {
+        margin-bottom: 40px;
+    }
+    .country-wrap .thumb h1 {
+        font-size: 30px;
+    }
+    .contact-wrap {
+        margin: 40px 0;
+    }
+    .contact-wrap .form-group .col-sm-12:first-child {
+        margin-bottom: 30px;
+    }
+    .google-map {
+        margin-top: 40px;
+    }
+    .booking-wrap .form-control {
+        max-width: 100%;
+    }
+    .booking-wrap .input-group .form-control {
+        max-width: 100%;
+    }
+    .booking-wrap .view-btn {
+        max-width: 100%;
+        margin: 15px 0;
+    }
+    .section-header h2 {
+        font-size: 17px;
+        letter-spacing: normal
+    }
+    .section-header h3.section-title {
+        font-size: 17px;
+    }
+    #top-accomodation {
+        padding: 40px 0;
+    }
+    #special-offer {
+        margin: 40px 0;
+    }
+    #featured-brand {
+        margin: 40px 0;
+    }
+    #search-bar {
+        height: auto;
+    }
+    .search-bar-wrapper {
+        height: auto;
+    }
+
+    .search-bar-wrapper {
+        height: auto;
+        margin-bottom: 30px;
+        float: left;
+        width: 100%;
+    }
+
+    #search-bar .input-group-addon:last-child {
+        width: 100%;
+        margin: 0;
+        display: table;
+        line-height: 40px;
+        color: #fff;
+        height: auto;
+        left: 0;
+        top: 0;
+    }
+
+    #search-bar .form-group {
+        border-right: none;
+    }
+    #top-accomodation h3 {
+        font-size: 25px;
+    }
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+
+    .banner .text-wrapper1 {
+        /*background: #1f2122 none repeat scroll 0 0;*/
+        color: #fff;
+        display: inline-block;
+        left: auto;
+        max-width: 462px;
+        position: absolute;
+        right: 15px;
+        text-align: right;
+        margin-top: 10%;
+    }
+    /*    .banner .text-wrapper {
+        background: transparent;
+        color: #fff;
+        left: 0;
+        max-width: 462px;
+        position: absolute;
+        text-align: left;
+    }*/
+    .section-header p {
+        font-size: 24px;
+    }
+    /*header .intro-text .intro-heading{font-size: 28px;line-height:50px;margin-bottom: 20px;}*/
+    header .intro-text {
+        /*padding-top: 160px;*/
+    }
+    .navbar-nav {
+        margin-top: 35px;
+    }
+
+    .at-login-form .modal-dialog {
+        width: 550px;
+        margin: 15% auto;
+    }
+    .country-wrap .inner {
+        border-right: 1px solid #dad9d9;
+        padding: 30px 15px;
+    }
+    .banner .text-wrapper1 .btn-read {
+        letter-spacing: 0.22em;
+    }
+    .banner .text-wrapper .btn-read {
+        letter-spacing: 0.22em;
+    }
+    .dropping-offer h1 {
+        font-size: 45px;
+    }
+    .dropping-offer {
+        margin: 100px 0;
+    }
+    .about-content h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .country-wrap {
+        margin-bottom: 100px;
+    }
+    .country-wrap .thumb h1 {
+        font-size: 45px;
+    }
+    .contact-wrap {
+        margin: 100px 0;
+    }
+    .contact-wrap .form-group .col-sm-12:first-child {
+        margin-bottom: 0;
+    }
+    .google-map {
+        margin-top: 75px;
+    }
+    .booking-wrap .form-control {
+        max-width: 160px;
+    }
+    .booking-wrap .view-btn {
+        max-width: 30%;
+    }
+    .section-header h2 {
+        font-size: 28px;
+        letter-spacing: 0.22em;
+    }
+    .section-header h3.section-title {
+        font-size: 18px;
+    }
+    #top-accomodation {
+        padding: 60px 0;
+    }
+    #special-offer {
+        margin: 60px 0 18px;
+    }
+    #featured-brand {
+        margin: 60px 0 43px;
+    }
+    #search-bar {
+        height: 148px;
+    }
+    .search-bar-wrapper {
+        height: 90px;
+    }
+    /*.search-col {
+        padding: 0 30px;
+    }*/
+    #search-bar .input-group-addon:last-child {
+        border-left: 0;
+        border-left: 0;
+        background: #911e21;
+        height: 91px;
+        float: right;
+        position: relative;
+        top: -80px;
+        width: 152px;
+        padding: 13px;
+        margin: 0;
+        display: table;
+        line-height: 60px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        left: 22px;
+        cursor: pointer;
+    }
+    #search-bar .input-group-addon:last-child {
+        height: 90px;
+        top: -83px;
+    }
+    #search-bar .form-group {
+        margin-bottom: 0;
+        border-right: 1px solid #dad9d9;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .woocommerce form.login,
+    .woocommerce form.register {
+        min-height: 373px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+
+    .section-header p {
+        font-size: 24px;
+    }
+
+    .at-login-form .modal-dialog {
+        width: 560px;
+        margin: 10% auto;
+    }
+    .country-wrap .inner {
+        border-right: 1px solid #dad9d9;
+        padding: 30px 0;
+    }
+    #top-accomodation h3 {
+        font-size: 38px;
+    }
+    #special-offer.shop-page ul.products li.product {
+        width: 33.3333%;
+    }
+
+}
+
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+
+
+    .country-wrap .inner {
+        border-right: 1px solid #dad9d9;
+        padding: 30px 0;
+    }
+    body.home header.home {
+        background-position: 100% 0;
+    }
+    .recent-thumbnail {
+        float: left;
+        margin: 0 20px 0 0;
+        overflow: hidden;
+        width: 120px;
+    }
+    .recent-thumbnail-post {
+        float: left;
+        width: calc(100% - 140px);
+    }
+}
+
+
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+@media screen and (max-width: 960px) {
+
+    .wcv-grid h3 {
+        /*max-width: 100%;*/
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    header .intro-text .intro-heading {
+        font-size: 20px;
+        letter-spacing: 0.15em;
+        line-height: 1.3;
+    }
+    #portfolio .woocommerce ul.products li.product {
+        margin-bottom: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #portfolio .info {
+        min-height: auto;
+        position: relative;
+    }
+    #portfolio .view-btn {
+        bottom: 0 !important;
+        position: static;
+    }
+    #bookingForm.form-horizontal .form-group {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 15px;
+        padding: 10px 0;
+    }
+    .form-horizontal {
+        padding: 0 15px;
+    }
+    #bookingForm.form-horizontal .search-col {
+        position: relative;
+    }
+    #bookingForm.form-horizontal .search-col img.arrow-icon {
+        position: absolute;
+        right: 15px;
+        top: 45%;
+    }
+    .search-col {
+        padding: 0 15px;
+    }
+    #search-bar .input-group-addon:last-child {
+        border: medium none;
+        border-radius: 0;
+        display: inline-block;
+        float: none;
+        height: auto;
+        left: 0;
+        line-height: 1;
+        margin: 15px 0 0;
+        max-width: 100%;
+        position: static;
+        top: auto;
+        width: 100%;
+    }
+    #bookingForm.form-horizontal .form-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #footer {
+        padding: 16px 0;
+    }
+    #footer p {
+        margin-bottom: 10px;
+    }
+    .copyright,
+    .footer-menu-items>ul {
+        text-align: center;
+    }
+    #footer ul li {
+        padding: 0 6px;
+    }
+    #footer a {
+        font-size: 15px;
+    }
+    .country-wrap .inner {
+        border: medium none;
+        padding: 15px;
+        text-align: center;
+    }
+    .country-wrap .thumb img {
+        float: none;
+        margin: 0 auto 15px;
+    }
+    .country-wrap .thumb p {
+        float: none;
+        margin: 15px 0;
+        padding-right: 0;
+    }
+
+    /* Dashboard responsive styles*/
+    form.wcv-form .tiny-50,
+    form.wcv-form .all-66 {
+        width: 100%;
+    }
+    .wcv-form .wcv-cols-group .all-50.tiny-100 {
+        width: 100%;
+    }
+    .wcv-form .all-50:first-child {
+        margin-right: 0;
+    }
+    .wcv-form>.all-33 {
+        padding-left: 0;
+        width: 100%;
+    }
+    .wcv_dashboard_overview.wcv-horizontal-gutters>[class*="all-"] h3,
+    .wcv_reports.wcv-horizontal-gutters>[class*="all-"] h3,
+    .wcv_recent.wcv-horizontal-gutters>[class*="all-"] h3 {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        padding: 10px;
+    }
+    .wcv-tabs .tabs-nav li a {
+        font-size: 13px;
+        margin-right: 4px !important;
+        padding: 5px 8px;
+        text-transform: capitalize;
+    }
+    .wcv-cols-group .all-50.small-100 {
+        width: 100%;
+    }
+
+    /*oct 2017 ram*/
+    .wcvendors .common-page {
+        margin: 0 0 30px;
+    }
+    .wcv-navigation {
+        margin-left: -15px;
+        margin-right: -15px;
+        position: static;
+        width: auto;
+    }
+    .wcvendors .button-wrapper {
+        margin-top: 20px;
+    }
+    /*oct 2017 ram*/
+    #top-accomodation .section-header {
+        margin-bottom: 30px;
+    }
+    .col-sm-8 .gallery .image {
+        margin-bottom: 30px;
+    }
+    #tt-newsletter .mc4wp-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #tt-newsletter .tt-newsletter-email {
+        min-width: 200px;
+    }
+    .navbar-header {
+        padding: 10px 0;
+    }
+    .logo {
+        float: left;
+    }
+    .navbar-toggle {
+        top: 27px;
+    }
+    .home #featured-brand .section-header {
+        margin-bottom: 0;
+    }
+    #tt-newsletter .mc4wp-alert {
+        margin-top: 15px;
+    }
+    .intro-stripe {
+        text-align: center;
+    }
+    .intro-stripe .col-md-4.pull-right {
+        float: none !important;
+    }
+    .vendor-intro .col-md-6.col-sm-6.col-xs-12 .btn-call {
+        display: block;
+        float: none;
+        margin: 22px auto 0;
+        max-width: 300px;
+        text-align: center;
+    }
+    .intro-stripe .btn.btn-call {
+        float: none;
+        margin-top: 20px;
+    }
+    .try-it-now p {
+        max-width: 100%;
+    }
+    .vendor-intro img.pull-right {
+        display: block;
+        float: none !important;
+        margin: 0 auto !important;
+    }
+    .vendor-intro .row {
+        margin-bottom: 40px;
+    }
+    .blog-sidebar .recent-thumbnail {
+        margin-bottom: 15px;
+    }
+    .single-post .single-post-author span.entry-date {
+        display: block;
+        font-size: 17px;
+        margin: 0 auto 10px;
+        max-width: 300px;
+    }
+    .single-post h2.single-page-title {
+        font-size: 30px !important;
+        line-height: 36px !important;
+        margin: 40px 0 20px;
+    }
+
+    .col-md-6.prev-blk,
+    .col-md-6.nxt-blk {
+        float: left;
+        width: 50%;
+    }
+
+    .wcv-form .control-group .control.append-button>span {
+        /*display: block;
+        margin-bottom: 20px;*/
+    }
+    .page-id-197 .wcv-search .all-30 {
+        width: 100%;
+    }
+
+    .page-id-197 .wcv_actions>.all-50 {
+        width: 100%;
+    }
+    .wcv-form .control-group .control.append-button {
+        /*display: block;*/
+    }
+
+    .wcv-form .control-group .control.append-button .wcv-button {
+        /*display: block;
+        margin-left: 0;
+        max-width: 250px;*/
+        padding: 7px 36px;
+    }
+    .wcv_actions.wcv-cols-group .wcv-button.button {
+        /*display: block;
+        max-width: 150px;*/
+    }
+    .wcv-grid .wcv_actions {
+        width: 100%;
+    }
+    .wcv_dashboard_table_header.wcv-cols-group.wcv-search {
+        float: none;
+        width: 100%;
+    }
+    .wcvendors-pro-dashboard-wrapper a.button.product,
+    .all-50 a {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 11px 20px;
+    }
+    #special-offer.shop-page h2 span {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .modal-content {
+        padding: 40px 20px;
+    }
+    .modal-footer {
+        text-align: center;
+    }
+    .at-login-form .list-inline>li:first-child {
+        text-align: center;
+        width: 100%;
+    }
+    section#blog-news {
+        margin-top: 30px;
+    }
+    .page-id-595 .blog-new {
+        margin-top: 0;
+    }
+
+    .page-id-84 .common-page {
+        margin-bottom: 0;
+    }
+
+    .wcv-navigation ul.menu.horizontal li a {
+        font-size: 13px;
+        margin-right: 10px;
+        padding: 7px 0;
+    }
+    .Lout a {
+        margin-left: 0;
+        padding: 18px 0 9px !important;
+    }
+
+    .wcv-cols-group.wcv-horizontal-gutters>[class*="all-"] {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .offer .offer-price,
+    .offer .offer-end {
+        padding: 6px;
+    }
+
+    /* 15 october 2017 */
+
+    .Lout {
+        margin-top: -15px;
+    }
+
+    .pd-location.pull-right,
+    .posted-by.pull-right {
+        float: left !important;
+    }
+    .pd-category.text-center {
+        text-align: left;
+    }
+    .pd-people,
+    .pd-category,
+    .posted-by {
+        margin-bottom: 10px;
+    }
+
+    #breadcrumb-wrapper {
+        margin-bottom: 30px;
+    }
+    .woocommerce-page ul.products li.product {
+        width: 100%;
+    }
+    
+    .woocommerce ul.products li.product:nth-child(2n), 
+    .woocommerce-page ul.products li.product:nth-child(2n), 
+    .woocommerce-page[class*="columns-"] ul.products li.product:nth-child(2n), 
+    .woocommerce[class*="columns-"] ul.products li.product:nth-child(2n) {
+        float: left;
+    }
+
+
+    ul.wsp-pages-list {
+        margin-bottom: 22px;
+    }
+    .load-more-container {
+        padding-bottom: 0;
+    }
+    ul#progressbar:before {
+        border: none;
+    }
+    ul#progressbar li {
+        width: 100%;
+    }
+    ul#progressbar li:before {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    
+    #signupform-wc-vendor-1000trees fieldset {
+        padding: 20px 20px;
+        width: 100%;
+        margin: 0;
+    }
+    #signupform-wc-vendor-1000trees input[type="submit"] {
+        float: left;
+        padding: 8px 15px;
+    }
+    .woocommerce-MyAccount-navigation ul > li > a {
+        font-size: 15px;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+    }
+
+    /*.wcv-pro-dashboard .wcv_reports > div, 
+    .wcv-pro-dashboard .wcv_recent > div {
+        min-height: auto;
+    }*/
+
+    .wcv-grid h3 {
+        max-width: 100%;
+    }
+    .col-sm-4.destination-col {
+        margin-bottom: 30px;
+    }
+    .col-sm-4.destination-col:last-child {
+        margin-bottom: 0;
+    }
+    
+}
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {
+    #featured-brand ul li {
+        width: 49%;
+    }
+    #top-accomodation .section-header .col-sm-10.pull-left,
+    #top-accomodation .section-header .col-sm-2.pull-right {
+        float: left;
+        width: 100%;
+    }
+
+    #top-accomodation .section-header .col-sm-2.pull-right a.section-title {
+        float: none;
+        margin-top: 15px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #featured-brand ul li {
+        width: 32%;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #special-offer .image,
+    .postid-282 #related.products .image {
+        max-height: 187px;
+    }
+    .offer .offer-price,
+    .offer .offer-end {
+        padding: 6px;
+    }
+    .recent-thumbnail {
+        margin-bottom: 20px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin: 0px 9px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .offer {
+        top: 150px !important;
+    }
+    .offer {
+        font-size: 12px !important;
+    }
+    .intro-stripe p {
+        line-height: 1.2 !important;
+    }
+    .single-product .shop-page .product .cart .form-group.form-select {
+        overflow: hidden;
+    }
+    .single-product .shop-page .product .cart .form-group.form-select .form-control {
+        float: left;
+    }
+    .single-product .summary .woocommerce-product-details__short-description .wp-caption.alignnone {
+        width: 100% !important;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .medium-100 {
+        width: 48%;
+    }
+    .wcv_reports .all-50.small-100.tiny-100 {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #171717;
+        font-family: "Brandon light";
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30px;
+        /*padding: 0 13px;*/
+        margin: 0px 9px;
+        text-transform: capitalize;
+    }
+    
+    #bookingForm .search-col {
+        float: left;
+        padding: 0 40px;
+        width: 33.3333%;
+    }
+    #search-bar .input-group-addon:last-child {
+        border: medium none;
+        font-size: 15px;
+        left: auto;
+        padding: 13px;
+        right: -30px !important;
+        top: -82px;
+        width: auto;
+    }
+    #special-offer .image,
+    .postid-282 #related.products .image {
+        max-height: 187px;
+    }
+    .copyright,
+    .footer-menu-items>ul {
+        text-align: center;
+    }
+    .wpcf7-form-control-wrap.text-330 {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #special-offer .section-header .col-sm-10.pull-left,
+    #top-accomodation .section-header .col-sm-10.pull-left {
+        width: 75%;
+    }
+    #special-offer .section-header .col-sm-2.pull-right,
+    #top-accomodation .section-header .col-sm-2.pull-right {
+        width: 25%;
+    }
+
+    #portfolio .woocommerce.columns-3 ul.products li.product {
+        width: 48.5% !important;
+        margin-right: 1.5%;
+    }
+
+
+    #portfolio .woocommerce ul.products li.first,
+    .woocommerce ul.products li.first, 
+    .woocommerce-page ul.products li.first {
+        clear: none;
+    }
+
+    .recent-thumbnail {
+        float: left;
+        margin: 0 20px 0 0;
+        overflow: hidden;
+        width: 120px;
+    }
+    .recent-thumbnail-post {
+        float: left;
+        width: calc(100% - 140px);
+    }
+
+    .col-md-8.col-sm-8.col-xs-12.pd-left,
+    .col-md-4.col-sm-4.col-xs-12.pd-right {
+        float: left;
+        width: 100%;
+    }
+
+    .col-md-6.prev-blk, .col-md-6.nxt-blk {
+        float: left;
+        width: 50%;
+    }
+    .related-post .col-md-4.col-sm-3.col-xs-12.recent-item {
+        width: 33.3333%;
+    }
+    
+
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    #special-offer.shop-page ul.products {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    #special-offer.shop-page ul.products li.product {
+        margin: 0 0 2.992em;
+        padding: 0 10px;
+        width: 50%;
+    }
+    .wcv-pro-dashboard .wcv_reports > div, 
+    .wcv-pro-dashboard .wcv_recent > div {
+        min-height: 375px;
+        width: 48%;
+    }
+    .xlarge-50.large-50.medium-100.small-100.tiny-100 {
+        width: 48%;
+    }
+    
+
+    /*.page-id-84 .common-page .woocommerce {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .page-id-84 .common-page .container {
+        display: table;
+        height: 50vh;
+    }*/
+}
+
+@media (min-width: 768px) and (max-width: 1999px) {
+    .info .location,
+    #special-offer .thumbnail h2 {
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #special-offer .thumbnail h2 {
+        line-height: 1.5;
+    }
+    .page-id-25 .contact-wrap {
+        margin: 50px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    .navbar-default .navbar-nav>li>a {
+        margin: 0px 7px;
+    }
+}
+
+@media (min-width: 992px) {
+    #top-accomodation h3 {
+        font-size: 38px;
+    }
+    #special-offer.shop-page ul.products li.product {
+        width: 33.3333%;
+    }
+}

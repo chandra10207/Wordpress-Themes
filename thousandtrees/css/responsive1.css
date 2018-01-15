@@ -1,0 +1,158 @@
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+   header{padding: 21px 0; height: auto;}
+
+	#home{margin:60px 0;}	
+	
+	.column-title{font-size:24px;}
+	.menu{ position: inherit; right:0; }
+	.section-header p{ font-size: 18px; }
+	#footer{ height: auto; }
+	h3.section-title{font-size:24px;} 
+	#about{margin-top: 30px;}
+	#about #content-wrapper{ margin: 0 15px; }
+
+	.work-section  h2{ margin-top:0  }
+	#activities {margin:30px 0;}  
+	.think-feel{padding-top: 30px;}
+	.birthday-section{padding-top: 30px;}
+	.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label{width: 100%;}
+	.birthday-section .radio-custom-label {width: 100%;}
+	#activities .list-group-wrapper { margin-top: 30px;}
+
+	.at-login-form .modal-dialog {
+    width: 300px;
+    margin: 10px auto;
+}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    	
+	.column-title{font-size:24px;}
+	.section-header p{ font-size: 18px; }
+	#footer{ height: auto; }
+	#about{margin-top: 30px;}
+	#about #content-wrapper{ margin: 0 15px; }
+	#activities {margin:30px 0;}   
+	.think-feel{padding-top: 30px;} 
+	.birthday-section{padding-top: 30px;}
+	.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label{width: 100%;}
+	.birthday-section .radio-custom-label {width: 100%;}
+	.at-login-form .modal-dialog {width: 350px;margin: 10px auto;}	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+   	#home{margin-top: 148px;}	
+	header {height: 148px;padding: 42px 0;}	
+	#footer{height: 148px;}
+	.column-title{font-size:63px;}
+	
+	.section-header p{ font-size: 24px; }
+	h3.section-title{font-size:42px;}
+	#activities {margin:80px 0;}  
+	#about{margin-top: 80px;}
+	.think-feel{padding-top: 110px;}
+	.birthday-section{padding-top:110px;}
+	.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label{width: 601px;}
+	.birthday-section .radio-custom-label { width: 580px;}
+	#activities .list-group-wrapper { margin-top: 70px;}
+	
+	.navbar-nav {float: left;margin-top: 8px;}
+
+	.at-login-form .modal-dialog {width: 500px;margin: 30px auto;}	
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+	header {height: 148px;padding: 42px 0;}		
+	#footer{height: 148px;}
+	.column-title{font-size:63px;}
+	.section-header p{ font-size: 24px; }
+	#activities {margin:80px 0;}  
+	#about{margin-top: 80px;}
+	.think-feel{padding-top: 110px;}
+	.birthday-section{padding-top:110px;}
+	.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label{width: 601px;}
+	.birthday-section .radio-custom-label { width: 580px;}
+	.at-login-form .modal-dialog {width: 500px;margin: 30px auto;}	
+	
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    #footer{height: 148px;}	
+	header {height: 148px;padding: 42px 0;}	
+	.column-title{font-size:63px;}
+	.home-title p{ font-size: 24px;max-width: 570px;margin: 0 auto;  font-weight: 100}
+	 #activities {margin:80px 0;}  
+	 #about{margin-top: 80px;} 
+	.think-feel{padding-top: 110px;}
+	.birthday-section{padding-top:110px;}
+	.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label{width: 601px;}
+	.birthday-section .radio-custom-label { width: 580px;}
+	.at-login-form .modal-dialog {width: 500px;margin: 30px auto;}	
+	
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
