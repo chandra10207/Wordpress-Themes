@@ -1,0 +1,76 @@
+@mixin transition($a : 0.3s) {
+  transition: $a ease-in-out;
+  -webkit-transition: $a ease-in-out;
+  -moz-transition: $a ease-in-out;
+  -ms-transition: $a ease-in-out;
+}
+@mixin translateX($a : -50%) {
+  transform: translateX($a);
+  -webkit-transform: translateX($a);
+  -moz-transform: translateX($a);
+  -ms-transform: translateX($a);
+}
+@mixin translateY($a : -50%) {
+  transform: translateY($a);
+  -webkit-transform: translateY($a);
+  -moz-transform: translateY($a);
+  -ms-transform: translateY($a);
+}
+
+@mixin translateXY($a : -50%,$b : -50%) {
+  transform: translate($a,$b);
+  -webkit-transform: translate($a,$b);
+  -moz-transform: translate($a,$b);
+  -ms-transform: translate($a,$b);
+}
+
+
+
+@mixin border_radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+
+$breakpoints: (
+        "phone":        400px,
+        "phone-wide":   480px,
+        "phablet":      560px,
+        "tablet-small": 640px,
+        "tablet":       768px,
+        "tablet-wide":  1024px,
+        "desktop":      1248px,
+        "desktop-wide": 1440px
+);
+@mixin mq($width, $type: max) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+    @if $type == max {
+      $width: $width - 1px;
+    }
+    @media only screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
+}
+
+//@include mq('tablet-wide') {
+//  padding-top: 4rem;
+//  font-size: 2.4rem;
+//}
