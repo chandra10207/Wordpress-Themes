@@ -1,0 +1,46 @@
+.accordionjs {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.accordionjs .acc_section {
+  position: relative;
+  z-index: 10;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.accordionjs .acc_section .acc_head {
+  position: relative;
+  background: #f5f5f5;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  border:1px solid rgba(0, 0, 0, 0.05);
+}
+.accordionjs .acc_section .acc_head h3 {
+ font-size: 18px;
+ font-weight: normal;
+}
+.accordionjs .acc_section.acc_active > .acc_content {
+  display: block;
+}
+.accordionjs .acc_section .acc_head:after {
+    display: block;
+    content: '\f278';
+    font-family: 'Material-Design-Iconic-Font';
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.accordionjs .acc_active .acc_head:after {
+    content: '\f273';
+    font-family:'Material-Design-Iconic-Font';
+  
+}
+
